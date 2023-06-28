@@ -259,6 +259,10 @@ hadoop fs -cat /WordCount-Result/part-r-00000
 >-Xms16g agar program java tersebut dapat menjalankan program yang dapat memakai hingga 16 GB RAM. Digunakan untuk menghindari error outofmemory.
 ### 6. Jalankan program
 
+### **Text yang digunakan untuk percobaan**
+Text berukuran 1 MB bernama onemb.txt yang sudah disertakan di repository ini
+Text berukuran 10 MB bernama tenmb.txt yang sudah disertakan di repository ini 
+Text berukuran 100 MB, 200 MB, 500 MB, dan 1 GB yang bersumber dari - https://www.i3s.unice.fr/~jplozi/hadooplab_lsds_2015/datasets/
 ### **Referensi**
 - https://codewitharjun.medium.com/install-hadoop-on-ubuntu-operating-system-6e0ca4ef9689
 - https://www.youtube.com/watch?v=Slbi-uzPtnw
