@@ -68,8 +68,9 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 ### 10.	Melakukan konfigurasi pada file 
 ```
 cd etc/hadoop
-
+```
 core-site.xml
+```
 <configuration> 
 <property> 
 <name>fs.defaultFS</name> 
@@ -87,16 +88,18 @@ core-site.xml
 <name>hadoop.proxyuser.server.groups</name> <value>*</value> 
 </property> 
 </configuration>
-
+```
 hdfs-site.xml
+```
 <configuration> 
 <property> 
 <name>dfs.replication</name> 
 <value>1</value> 
 </property> 
 </configuration>
-
+```
 mapred-site.xml
+```
 <configuration> 
 <property> 
 <name>mapreduce.framework.name</name> <value>yarn</value> 
@@ -107,8 +110,9 @@ mapred-site.xml
 <value>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*</value> 
 </property> 
 </configuration>
-
+```
 yarn-site.xml
+```
 <configuration> 
 <property> 
 <name>yarn.nodemanager.aux-services</name> 
