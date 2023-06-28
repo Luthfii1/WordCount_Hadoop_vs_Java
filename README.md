@@ -1,6 +1,16 @@
-<h1 style="text-align: center;">
+<h1>
 Hadoop vs Java Wordcount
 </h1>
+
+## kelompok 1
+
+Roy Oswaldha 2106731592
+
+Leonardo Jeremy pongpare 2106707914
+
+Luthfi Misbachul 2106706981
+
+Ivan Indrastata 2106706981
 
 ## **About**
 Repositori ini berisi panduan instalasi Hadoop di sistem operasi Linux, terutama Ubuntu 22.04. Hadoop digunakan untuk menjalankan program Wordcount yang berfungsi untuk menghitung jumlah kata dalam sebuah file teks. Nantinya, program Wordcount Hadoop akan dibandingkan dengan program Wordcount menggunakan Java tanpa Hadoop.
@@ -237,10 +247,15 @@ hadoop fs -cat /WordCount-Result/part-r-00000
 
 ## **Menjalankan program wordcount java tanpa hadoop**
 ### 1. Buka file WordCount.java di atas
+![image](https://github.com/Luthfii1/WordCount_Hadoop_vs_Java/assets/72743765/35d6bb6d-0cbf-4ee2-8411-94ae7e83332c)
 ### 2. Ubah filePath sesuai letak file yang ingin dihitung
-### 3. Klik tombol panah hijau pada public class Main 
+![image](https://github.com/Luthfii1/WordCount_Hadoop_vs_Java/assets/72743765/fb120cb5-cbc4-4564-9488-de5e6276be0d)
+### 3. Klik tombol panah hijau pada public class Main
+![image](https://github.com/Luthfii1/WordCount_Hadoop_vs_Java/assets/72743765/a2877fad-ae89-4eba-ab44-d8604908d7c7)
 ### 4. Ubah konfigurasi saat menjalankan program
+![image](https://github.com/Luthfii1/WordCount_Hadoop_vs_Java/assets/72743765/21b2d210-3c87-4792-86e9-426d957a547f)
 ### 5. Tambahkan perintah -Xms16g
+![image](https://github.com/Luthfii1/WordCount_Hadoop_vs_Java/assets/72743765/1b9848b4-90e1-4387-b487-b5e2d001e973)
 >-Xms16g agar program java tersebut dapat menjalankan program yang dapat memakai hingga 16 GB RAM. Digunakan untuk menghindari error outofmemory.
 ### 6. Jalankan program
 
