@@ -16,7 +16,7 @@ Ivan Indrastata 2106706981
 Repositori ini berisi panduan instalasi Hadoop di sistem operasi Linux, terutama Ubuntu 22.04. Hadoop digunakan untuk menjalankan program Wordcount yang berfungsi untuk menghitung jumlah kata dalam sebuah file teks. Nantinya, program Wordcount Hadoop akan dibandingkan dengan program Wordcount menggunakan Java tanpa Hadoop.
 
 ## **Penginstalan Hadoop pada Ubuntu 22.04**
-### 1. Post
+### 1.  Melakukan instalasi java 
 ```
 sudo apt install openjdk-8-jdk
 ```
